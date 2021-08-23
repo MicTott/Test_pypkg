@@ -1,4 +1,5 @@
 from Totty_pypkg import Totty_pypkg
+import pandas as pd
 
 def test_catbind():
     a = pd.Categorical(["character", "hits", "your", "eyeballs"])
